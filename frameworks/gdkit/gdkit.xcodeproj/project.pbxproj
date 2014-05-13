@@ -933,6 +933,7 @@
 				);
 				PRODUCT_NAME = GDKit;
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -967,6 +968,7 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = debugging;
+				VALID_ARCHS = "i386 x86_64";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1015,6 +1017,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -1038,6 +1041,7 @@
 				HEADER_SEARCH_PATHS = /Users/aaronsmith/dev/xcode/scr/10.5;
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};

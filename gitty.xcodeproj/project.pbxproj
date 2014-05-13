@@ -343,6 +343,14 @@
 		07FBCAD210B7E9FB00D4E829 /* UnusedInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07FBCAD110B7E9FB00D4E829 /* UnusedInterface.xib */; };
 		1DDD582C0DA1D0D100B32029 /* GittyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* GittyDocument.xib */; };
 		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		20A6C5861922809800B30464 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C57B1922809800B30464 /* NSObject+SBJSON.m */; };
+		20A6C5871922809800B30464 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C57D1922809800B30464 /* NSString+SBJSON.m */; };
+		20A6C5881922809800B30464 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C57F1922809800B30464 /* SBJSON.m */; };
+		20A6C5891922809800B30464 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C5811922809800B30464 /* SBJsonBase.m */; };
+		20A6C58A1922809800B30464 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C5831922809800B30464 /* SBJsonParser.m */; };
+		20A6C58B1922809800B30464 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C5851922809800B30464 /* SBJsonWriter.m */; };
+		20A6C59019228A3700B30464 /* GTOpNewFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C58E1922864500B30464 /* GTOpNewFeature.m */; };
+		20A6C59119228C9D00B30464 /* feature.png in Resources */ = {isa = PBXBuildFile; fileRef = 20262EAA1922669700416F7C /* feature.png */; };
 		355AA54112B96D06004AAACA /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355AA54012B96D06004AAACA /* ScriptingBridge.framework */; };
 		355AA54C12B970C7004AAACA /* terminal.png in Resources */ = {isa = PBXBuildFile; fileRef = 355AA54B12B970C7004AAACA /* terminal.png */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.html */; };
@@ -967,6 +975,22 @@
 		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GittyDocument.xib; sourceTree = "<group>"; };
 		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20262EAA1922669700416F7C /* feature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feature.png; sourceTree = "<group>"; };
+		20A6C5791922809800B30464 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		20A6C57A1922809800B30464 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		20A6C57B1922809800B30464 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		20A6C57C1922809800B30464 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		20A6C57D1922809800B30464 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		20A6C57E1922809800B30464 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		20A6C57F1922809800B30464 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		20A6C5801922809800B30464 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		20A6C5811922809800B30464 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		20A6C5821922809800B30464 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		20A6C5831922809800B30464 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		20A6C5841922809800B30464 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		20A6C5851922809800B30464 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		20A6C58D1922864500B30464 /* GTOpNewFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTOpNewFeature.h; path = src/GTOpNewFeature.h; sourceTree = "<group>"; };
+		20A6C58E1922864500B30464 /* GTOpNewFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTOpNewFeature.m; path = src/GTOpNewFeature.m; sourceTree = "<group>"; };
 		2564AD2C0F5327BB00F57823 /* gitty_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gitty_Prefix.pch; path = src/gitty_Prefix.pch; sourceTree = "<group>"; };
 		2A37F4ACFDCFA73011CA2CEA /* GittyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GittyDocument.m; path = src/GittyDocument.m; sourceTree = "<group>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
@@ -1207,6 +1231,7 @@
 		077145E310609E2000D6230C /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				20A6C5781922809800B30464 /* JSON */,
 				07F485E8106A124A0059F611 /* defs.h */,
 				07A0549A10708B8200B21AB9 /* GDNSString+Additions.h */,
 				07689DED10F00DE800951EB1 /* GDTitleBarRefView.h */,
@@ -1411,6 +1436,7 @@
 				07F6934710828F5B006464DA /* LNSSourceListSourceGroupCell.h */,
 				07F6934910828F5B006464DA /* LNSSourceListView.h */,
 				074E0F5510D498DF00DCE009 /* NSTableView+Additions.h */,
+				20A6C58D1922864500B30464 /* GTOpNewFeature.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -1601,6 +1627,7 @@
 				07DEF591110162D2006E8A54 /* GTOpGetRemoteBranches.m */,
 				07E6208D108BCDFE00963F2A /* GTOpNewBranch.m */,
 				07E61F37108BBC7800963F2A /* GTOpNewEmptyBranch.m */,
+				20A6C58E1922864500B30464 /* GTOpNewFeature.m */,
 			);
 			name = branches;
 			sourceTree = "<group>";
@@ -1817,6 +1844,27 @@
 				8D15AC370486D014006FF6A4 /* Gity.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		20A6C5781922809800B30464 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				20A6C5791922809800B30464 /* JSON.h */,
+				20A6C57A1922809800B30464 /* NSObject+SBJSON.h */,
+				20A6C57B1922809800B30464 /* NSObject+SBJSON.m */,
+				20A6C57C1922809800B30464 /* NSString+SBJSON.h */,
+				20A6C57D1922809800B30464 /* NSString+SBJSON.m */,
+				20A6C57E1922809800B30464 /* SBJSON.h */,
+				20A6C57F1922809800B30464 /* SBJSON.m */,
+				20A6C5801922809800B30464 /* SBJsonBase.h */,
+				20A6C5811922809800B30464 /* SBJsonBase.m */,
+				20A6C5821922809800B30464 /* SBJsonParser.h */,
+				20A6C5831922809800B30464 /* SBJsonParser.m */,
+				20A6C5841922809800B30464 /* SBJsonWriter.h */,
+				20A6C5851922809800B30464 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = src/JSON;
 			sourceTree = "<group>";
 		};
 		2A37F4AAFDCFA73011CA2CEA /* gitty */ = {
@@ -2040,6 +2088,7 @@
 		CA98464612644ACC008129E2 /* toolbar */ = {
 			isa = PBXGroup;
 			children = (
+				20262EAA1922669700416F7C /* feature.png */,
 				CA98464712644ACC008129E2 /* add.png */,
 				CA98464812644ACC008129E2 /* addcommit.png */,
 				CA98464912644ACC008129E2 /* branch.png */,
@@ -2171,6 +2220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A6C59119228C9D00B30464 /* feature.png in Resources */,
 				07F4670F10660D140059F611 /* blackButton2.png in Resources */,
 				07F46845106612530059F611 /* blackButton2Down.png in Resources */,
 				07F4683A106611B70059F611 /* blackButton2Over.png in Resources */,
@@ -2459,7 +2509,13 @@
 			files = (
 				07D046E6109E225B005D5ED4 /* gity.m in Sources */,
 				07D046EA109E2406005D5ED4 /* GTCLIProxy.m in Sources */,
+				20A6C58B1922809800B30464 /* SBJsonWriter.m in Sources */,
+				20A6C5881922809800B30464 /* SBJSON.m in Sources */,
+				20A6C58A1922809800B30464 /* SBJsonParser.m in Sources */,
 				CA890C03162BF35100BE8ACE /* NSData+Additions.m in Sources */,
+				20A6C5861922809800B30464 /* NSObject+SBJSON.m in Sources */,
+				20A6C5871922809800B30464 /* NSString+SBJSON.m in Sources */,
+				20A6C5891922809800B30464 /* SBJsonBase.m in Sources */,
 				CA890C06162BF3A500BE8ACE /* NSFileHandle+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2468,6 +2524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A6C59019228A3700B30464 /* GTOpNewFeature.m in Sources */,
 				07A0549C10708B8200B21AB9 /* GDNSString+Additions.m in Sources */,
 				8D15AC310486D014006FF6A4 /* GittyDocument.m in Sources */,
 				0703813110A561C20095962E /* GTActionsMenuDelegate.m in Sources */,
@@ -2917,6 +2974,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2939,6 +2997,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = gity;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -2946,6 +3005,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2967,6 +3027,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = gity;
+				VALID_ARCHS = x86_64;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -2975,6 +3036,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -3006,7 +3068,7 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "i386 x86_64";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -3014,6 +3076,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -3043,13 +3106,15 @@
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "i386 x86_64";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
 		C05733CC08A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = "";
@@ -3059,19 +3124,24 @@
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
 		C05733CD08A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
