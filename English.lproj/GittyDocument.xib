@@ -300,6 +300,28 @@
 							<bool key="NSToolbarIsUserRemovable">YES</bool>
 							<int key="NSToolbarItemVisibilityPriority">0</int>
 						</object>
+<object class="NSToolbarItem" key="C97FB309-1D26-4C81-92B1-82DEEE751900" id="391086771">
+<object class="NSMutableString" key="NSToolbarItemIdentifier">
+<characters key="NS.bytes">C97FB309-1D26-4C81-92B1-82DEEE751900</characters>
+</object>
+<string key="NSToolbarItemLabel">Feature</string>
+<string key="NSToolbarItemPaletteLabel">Feature</string>
+<string key="NSToolbarItemToolTip"/>
+<nil key="NSToolbarItemView"/>
+<object class="NSCustomResource" key="NSToolbarItemImage">
+<string key="NSClassName">NSImage</string>
+<string key="NSResourceName">feature</string>
+</object>
+<nil key="NSToolbarItemTarget"/>
+<nil key="NSToolbarItemAction"/>
+<string key="NSToolbarItemMinSize">{0, 0}</string>
+<string key="NSToolbarItemMaxSize">{0, 0}</string>
+<bool key="NSToolbarItemEnabled">YES</bool>
+<bool key="NSToolbarItemAutovalidates">YES</bool>
+<int key="NSToolbarItemTag">-1</int>
+<bool key="NSToolbarIsUserRemovable">YES</bool>
+<int key="NSToolbarItemVisibilityPriority">0</int>
+</object>
 						<object class="NSToolbarItem" key="NSToolbarCustomizeToolbarItem" id="755339535">
 							<string key="NSToolbarItemIdentifier">NSToolbarCustomizeToolbarItem</string>
 							<string key="NSToolbarItemLabel">Customize</string>
@@ -422,6 +444,7 @@
 						<reference ref="74473042"/>
 						<reference ref="159719212"/>
 						<reference ref="755339535"/>
+                        <reference ref="391086771"/>
 					</array>
 					<array key="NSToolbarIBDefaultItems">
 						<reference ref="848171757"/>
@@ -429,6 +452,7 @@
 						<reference ref="13069968"/>
 						<reference ref="44835779"/>
 						<reference ref="391086770"/>
+                        <reference ref="391086771"/>
 						<reference ref="352847791"/>
 						<reference ref="74473042"/>
 						<reference ref="352847791"/>
@@ -1890,6 +1914,15 @@
 					</object>
 					<int key="connectionID">100583</int>
 				</object>
+<object class="IBConnectionRecord">
+<object class="IBActionConnection" key="connection">
+<string key="label">gitNewFeatureFromActiveBranch:</string>
+<reference key="source" ref="512844837"/>
+<reference key="destination" ref="391086771"/>
+</object>
+<int key="connectionID">100589</int>
+</object>
+
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">updateAfterFilesChanged:</string>
@@ -2923,6 +2956,7 @@
 							<reference ref="352847791"/>
 							<reference ref="13069968"/>
 							<reference ref="755339535"/>
+                            <reference ref="391086771"/>
 							<reference ref="391086770"/>
 							<reference ref="123476380"/>
 							<reference ref="443596859"/>
@@ -2955,6 +2989,11 @@
 						<reference key="object" ref="755339535"/>
 						<reference key="parent" ref="730171165"/>
 					</object>
+<object class="IBObjectRecord">
+<int key="objectID">100579</int>
+<reference key="object" ref="391086771"/>
+<reference key="parent" ref="730171165"/>
+</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">100563</int>
 						<reference key="object" ref="391086770"/>

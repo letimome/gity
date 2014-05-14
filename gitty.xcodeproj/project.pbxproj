@@ -2088,6 +2088,7 @@
 		CA98464612644ACC008129E2 /* toolbar */ = {
 			isa = PBXGroup;
 			children = (
+				CA98465012644ACC008129E2 /* stash.png */,
 				20262EAA1922669700416F7C /* feature.png */,
 				CA98464712644ACC008129E2 /* add.png */,
 				CA98464812644ACC008129E2 /* addcommit.png */,
@@ -2098,7 +2099,6 @@
 				CA98464D12644ACC008129E2 /* pull.png */,
 				CA98464E12644ACC008129E2 /* push.png */,
 				CA98464F12644ACC008129E2 /* refresh.png */,
-				CA98465012644ACC008129E2 /* stash.png */,
 				355AA54B12B970C7004AAACA /* terminal.png */,
 			);
 			name = toolbar;
